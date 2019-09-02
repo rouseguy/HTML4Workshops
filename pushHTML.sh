@@ -2,9 +2,10 @@
 cp /home/ubuntu/HackerNews/YooChoose/notebook/*.ipynb .
 jupyter nbconvert *.ipynb
 
+rm README.md
 touch README.md
 
-echo "#AI Conference Workshop - Recommendatiion Systems" >> README.md
+echo "#AI Conference Workshop - Recommendation Systems" >> README.md
 echo " ---------------------------------------------------------" >> README.md
 echo "         " >> README.md
 
